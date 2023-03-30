@@ -12,14 +12,6 @@ Laboratório de Estatística, Campus Ufac, Rio Branco/AC
 Mysql Connector C# -> https://dev.mysql.com/downloads/connector/net/8.0.html
 Mysql Server 8.0.32 -> https://dev.mysql.com/downloads/file/?id=516926
 
-coloca o arquivo data.sql na raiz do c:\
-
-No cmd (MySql Client )
-
-create database csharp /g
-
-use csharp
-
 CREATE TABLE `pessoa` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Nome` varchar(100) NOT NULL,

@@ -176,5 +176,10 @@ namespace TesteSistema
 
             atualizar_ds();
         }
+
+        private void TelaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

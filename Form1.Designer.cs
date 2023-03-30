@@ -210,6 +210,7 @@
             this.Name = "TelaPrincipal";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "TelaPrincipal";
+            this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.conexaoBindingSource)).EndInit();
             this.ResumeLayout(false);
