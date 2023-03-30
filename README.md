@@ -18,7 +18,7 @@ CREATE TABLE `pessoa` (
   `Profissao` varchar(100) DEFAULT NULL,
   `Endereco` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`Id`)
-)\g
+)
 
 INSERT INTO `pessoa` VALUES
 (1,'Nome 1','Mecanico','Rua dos Engenheiros'),
@@ -30,8 +30,3 @@ INSERT INTO `pessoa` VALUES
 (7,'Nome 7','Vendedor','Rua dos Banana'),
 (8,'Nome 8','Auxiliar','Rua dos Limao'),
 (9,'Nome 9','Diretor','Rua dos Abacaxi');
-\g
-
-exit;
-
-Sai do prompt 
